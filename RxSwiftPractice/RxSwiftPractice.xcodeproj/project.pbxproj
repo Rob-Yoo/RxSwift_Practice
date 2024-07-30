@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC55E2C92C5921BA009A9BBC /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC55E2C82C5921BA009A9BBC /* OperatorViewController.swift */; };
 		CCC86C122C58DED6000C8D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC86C112C58DED6000C8D99 /* AppDelegate.swift */; };
 		CCC86C142C58DED6000C8D99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC86C132C58DED6000C8D99 /* SceneDelegate.swift */; };
 		CCC86C162C58DED6000C8D99 /* SimplePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC86C152C58DED6000C8D99 /* SimplePickerViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC55E2C82C5921BA009A9BBC /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		CCC86C0E2C58DED6000C8D99 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC86C112C58DED6000C8D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC86C132C58DED6000C8D99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC55E2C72C5921AD009A9BBC /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				CC55E2C82C5921BA009A9BBC /* OperatorViewController.swift */,
+			);
+			path = Operator;
+			sourceTree = "<group>";
+		};
 		CCC86C052C58DED5000C8D99 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 		CCC86C102C58DED6000C8D99 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CC55E2C72C5921AD009A9BBC /* Operator */,
 				CCC86C252C590F55000C8D99 /* Simple */,
 				CCC86C112C58DED6000C8D99 /* AppDelegate.swift */,
 				CCC86C132C58DED6000C8D99 /* SceneDelegate.swift */,
@@ -170,6 +181,7 @@
 				CCC86C312C59143E000C8D99 /* SimpleSwitchViewController.swift in Sources */,
 				CCC86C122C58DED6000C8D99 /* AppDelegate.swift in Sources */,
 				CCC86C332C591585000C8D99 /* SimpleSignViewController.swift in Sources */,
+				CC55E2C92C5921BA009A9BBC /* OperatorViewController.swift in Sources */,
 				CCC86C2F2C591294000C8D99 /* SimpeTableViewController.swift in Sources */,
 				CCC86C142C58DED6000C8D99 /* SceneDelegate.swift in Sources */,
 			);
