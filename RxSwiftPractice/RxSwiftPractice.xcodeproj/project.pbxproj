@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CC55E2C92C5921BA009A9BBC /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC55E2C82C5921BA009A9BBC /* OperatorViewController.swift */; };
+		CCBB49492C5A22F3003601FA /* AddingNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB49482C5A22F3003601FA /* AddingNumbersViewController.swift */; };
+		CCBB494B2C5A3735003601FA /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB494A2C5A3735003601FA /* SimpleValidationViewController.swift */; };
+		CCBB494D2C5A5CC2003601FA /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBB494C2C5A5CC2003601FA /* SimpleTableViewController.swift */; };
 		CCC86C122C58DED6000C8D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC86C112C58DED6000C8D99 /* AppDelegate.swift */; };
 		CCC86C142C58DED6000C8D99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC86C132C58DED6000C8D99 /* SceneDelegate.swift */; };
 		CCC86C162C58DED6000C8D99 /* SimplePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC86C152C58DED6000C8D99 /* SimplePickerViewController.swift */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		CC55E2C82C5921BA009A9BBC /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
+		CCBB49482C5A22F3003601FA /* AddingNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNumbersViewController.swift; sourceTree = "<group>"; };
+		CCBB494A2C5A3735003601FA /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		CCBB494C2C5A5CC2003601FA /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		CCC86C0E2C58DED6000C8D99 /* RxSwiftPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC86C112C58DED6000C8D99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC86C132C58DED6000C8D99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +63,16 @@
 			path = Operator;
 			sourceTree = "<group>";
 		};
+		CCBB49472C5A224B003601FA /* RxExample */ = {
+			isa = PBXGroup;
+			children = (
+				CCBB49482C5A22F3003601FA /* AddingNumbersViewController.swift */,
+				CCBB494A2C5A3735003601FA /* SimpleValidationViewController.swift */,
+				CCBB494C2C5A5CC2003601FA /* SimpleTableViewController.swift */,
+			);
+			path = RxExample;
+			sourceTree = "<group>";
+		};
 		CCC86C052C58DED5000C8D99 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +92,7 @@
 		CCC86C102C58DED6000C8D99 /* RxSwiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CCBB49472C5A224B003601FA /* RxExample */,
 				CC55E2C72C5921AD009A9BBC /* Operator */,
 				CCC86C252C590F55000C8D99 /* Simple */,
 				CCC86C112C58DED6000C8D99 /* AppDelegate.swift */,
@@ -179,9 +196,12 @@
 			files = (
 				CCC86C162C58DED6000C8D99 /* SimplePickerViewController.swift in Sources */,
 				CCC86C312C59143E000C8D99 /* SimpleSwitchViewController.swift in Sources */,
+				CCBB494B2C5A3735003601FA /* SimpleValidationViewController.swift in Sources */,
+				CCBB49492C5A22F3003601FA /* AddingNumbersViewController.swift in Sources */,
 				CCC86C122C58DED6000C8D99 /* AppDelegate.swift in Sources */,
 				CCC86C332C591585000C8D99 /* SimpleSignViewController.swift in Sources */,
 				CC55E2C92C5921BA009A9BBC /* OperatorViewController.swift in Sources */,
+				CCBB494D2C5A5CC2003601FA /* SimpleTableViewController.swift in Sources */,
 				CCC86C2F2C591294000C8D99 /* SimpeTableViewController.swift in Sources */,
 				CCC86C142C58DED6000C8D99 /* SceneDelegate.swift in Sources */,
 			);
